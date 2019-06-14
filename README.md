@@ -1,25 +1,18 @@
 # User Service
 
-## Documentation
-
-```{{host}}/swagger-ui.html```
-
-### Local
-
-http://localhost:8080/swagger-ui.html
-
-# Prerequisites
+## Prerequisites
 
 * Local Postgres Database
 * Java
 
-# Build
+## Build
 
 ```../mvnw clean install```
 
-# Run
+## Run
 
 Add the following properties to a local file `src/main/resources/application-local.properties`
+
 ```
 spring.datasource.url={your_database_url}
 spring.datasource.username={your_username}
@@ -29,3 +22,7 @@ spring.datasource.password={your_password}
 Now run it
 
 ```./mvnw spring-boot:run```
+
+## Documentation
+
+http://localhost:8080/swagger-ui.html
