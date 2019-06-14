@@ -48,4 +48,12 @@ public class UserService {
 		}
 	}
 
+	protected void setUserRepository(UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
+
+	protected void setLoginAttemptRepository(LoginAttemptRepository loginAttemptRepository) {
+		this.loginAttemptRepository = loginAttemptRepository;
+	}
+
 }
